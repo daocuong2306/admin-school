@@ -3,292 +3,212 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    cursor: pointer;
 }
-
-
-.boxcenter {
-    width: 100%;
-    margin: 0 auto;
+.contenner{
+    width: 1440px;
 }
-
-#header {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
+.xinchao p{
+    margin: 10px;
+    margin-left: 1200px;
+    
 }
-
-.ol {
-    background: rgb(255, 255, 255);
-    font-size: 20px;
-    margin-right: 20px;
+.xinchao{
+    border-bottom: 1px solid;
 }
-
-
-#logo img {
-    width: 100%;
-}
-
-ul li {
-    display: inline-block;
-    padding: 0 16px;
-}
-
-li a {
-    text-decoration: none;
-    color: #5D5D5D;
-    font-size: 20px;
-}
-
-li:hover a {
-    color: #F54748;
-}
-
-#search-box {
-    background: #fff;
-    border-radius: 30px;
-}
-
-#search-box #search-text {
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 18px;
-    width: 0;
-    padding: 0;
-    transition: all 0.25s ease-in-out;
-}
-
-#search-box:hover #search-text {
-    width: 200px;
-
-}
-
-#search-box #search-btn {
-    background-color: #fff;
-    cursor: pointer;
-    border: none;
-    padding: 15px;
-    border-radius: 50%;
-    font-size: 18px;
-
-}
-
-
-#toggle_sidebar {
-    display: none;
-}
-
-.mmm {
-    position: relative;
-    margin-right: 30px;
-}
-
-.sidebar {
-    display: none;
-
-}
-
-#toggle_sidebar:checked~.sidebar {
-    display: block;
-
-}
-
-
-#benner img {
-    width: 100%;
-    height: 600px;
-}
-
-#header h3:hover {
-    background-color: #fff;
-}
-
-#header h3 {
-    padding: 10px;
-}
-
-#contenn {
-    padding: 20px 100px;
-}
-
-
-.text {
+.kkk{
+    margin-left: 200px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    grid-gap: 30px;
-
+    grid-template-columns: 115px   1fr;
+}
+.kkk {
+    margin: 30px;
+    
+}
+.fa-house{
+    margin-top: 5px;
+    
+}
+.fa-medal{
+    margin-top: 2px;
 }
 
-.chu p {
-    color: #f58d47;
-    padding: 40px 40px;
-    font-size: 17px;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 20px;
-
-}
-
-.chu p:hover {
-    background-color: #000000;
-    padding: 40px 40px;
-}
-
-#contenn h3 {
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
-.cackhoahoc {
+.chu{
+    padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-color:#F7F7F7;
+    
 }
 
-.khoahoc img {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
+
+ .chu a{
+  text-decoration: none;
+  color: blue;
+
+} 
+
+.noidung h4{
+    margin: 20px ;
+    color: blue;
+
+}
+.the {
+margin-left: 15px;
+margin: 30px;
 }
 
-.chuuu {
-    padding: 10px 20px;
+.text{
+    border:1px solid ;
+}
+.the1{
+    margin-left: 15px;
+margin: 30px;
+    color: rgb(255, 2, 2);;
+}
+.the1 a{
+    color: rgb(255, 2, 2);;
 }
 
-.chuuu h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.chuuu h5 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.chuuu p {
-    margin-top: 10px;
-}
-
-.anhchu {
+.th{
     border: 1px solid;
-    border-radius: 10px;
-}
-
-.lolo a {
-
-    padding: 10px 10px;
     text-align: center;
-}
-
-.lolo a {
-    width: 300px;
-    margin-left: 500px;
-    border-radius: 1px;
-    border: 1px solid #F54748;
-}
-
-.lolo a {
-    text-decoration: none;
-    color: rgb(208, 73, 73);
-}
-
-.lolo a:hover {
-    color: rgb(0, 0, 0);
-}
-
-.cc img {
-    width: 100%;
+     margin-left: 30px;
+     width: 100px;
+     background-color: blue;
+     padding: 3px;
+     border-radius: 5px;
 
 }
-
-.llll img {
+.th a{
+    color: #fff;
+}
+footer{
+    font-size: 15px;
+}
+footer{
+    padding: 10px;
     margin-top: 20px;
-
-    width: 100%;
-    height: 700px;
-}
-
-.delenne {
-
-    width: 1000px;
-    text-align: center;
-    background-color: rgb(206, 189, 189);
-    padding: 20px 20px;
-}
-
-.concac {
-    margin-left: 180px;
-    margin-bottom: 50px;
-
-}
-
-
-.delenne h4 {
-    padding: 30px 0px;
-}
-
-.delenne p {
-    margin-top: 10px;
-}
-
-.cotdelen {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px
+    grid-template-columns: 550px 1fr;
 }
-
-.ban i {
-    margin-top: 20px;
-    font-size: 40px;
+.alo{
+    display: grid;
+    grid-template-columns: 20px 1fr;
 }
+.fa-location-dot{
+    margin-left: 5px;
 
-.pl a {
-    width: 500px;
-    border: 1px solid #F54748;
-    text-align: center;
-
-
-
+   margin-top: 25px;
+}
+.alo p{
+    margin-top: 2px;
 
 }
-
-.pl a {
-    padding: 5px 5px;
-    text-decoration: none;
+.lienhe{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+}
+.fa-phone{
+   margin-top: 25px;
+}
+.fa-envelope{
+    margin-top: 25px;
+}
+.lienhe p{
     font-size: 15px;
-    color: rgb(137, 10, 10);
-
+} 
+ul{
+    margin-left: 50px;
 }
-
-.pl {
+.dich{
+    margin-left: 100px;
+}
+.hihi p{
     margin-top: 20px;
 }
-.on{
-    text-align: center;
-    background-color: #811010;
-    padding: 50px 15px;
-    color:#fff;
+.hihi{
+    margin-left: 30px;
+    border-right: 1px solid;
 }
-.on p{
-    margin-bottom: 30px;
-}
-.on a{
-    font-size: 15px;
-    text-decoration: none;
-    padding: 5px 5px;
+
+
+.menu-mobile {
+    position: fixed;
     background-color: #fff;
-    border: 1px solid ;
-    color: #811010;
-    border-radius: 3px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 320px;
+    transform: translate(-100%);
+    transition: 0.5s;
 }
-/* trang chu */
-#cot{
+
+#check:checked~.menu-mobile {
+    transform: translate(0%);
+
+    transition: ease-in-out 0.5s;
+}
+
+
+.icon img {
+    margin-left: 20px;
     margin-top: 20px;
+}
+
+.icon:focus .contenner {
+    width: 10;
+}
+
+.hi {
+    position: absolute;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 1000;
+
+}
+
+
+.mau {
+    background-color: aqua;
+    height: 1000px;
+
+}
+
+.mau img {
+    height: 160px 160px;
+}
+
+
+.img_text {
+    display: grid;
+    grid-template-columns: 86px 1fr;
+    margin-top: 40px;
+}
+
+.img_text img {
+    margin-left: 15px;
     margin-bottom: 20px;
 }
+
+#abc {
+    text-decoration: none;
+    color: #000;
+    margin-top: 14px;
+
+}
+.hi img{
+    position: absolute;
+    z-index: 1000;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+

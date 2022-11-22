@@ -4,7 +4,7 @@ function showmmain() {
     let Main = document.querySelector(".all");
     if (Main.style.display == "none") {
         Main.style.display = "block";
-        
+
     }
     else {
         Main.style.display = "none";
@@ -31,28 +31,28 @@ function showMenu() {
 
                 <img src="./img/image 10.png" alt="">
                 <div class="menu">
-                    <div class="img_text">
-                        <a href="./admintrangchu.html"><img src="./img/image 1.png" alt=""></a>
-                        <a href="./admintrangchu.html" id="abc">Trang chủ</a>
-                    </div>
-                    <div class="img_text">
-                        <a href="./adcoso.html"> <img src="./img/image 3.png" alt=""></a>
-                        <a href="./adcoso.html" id="abc">Cơ Sở</a>
-                    </div>
-                    <div class="img_text">
-                        <a href="./adhocsinh.html"> <img src="./img/image 2.png" alt=""></a>
-                        <a href="./adhocsinh.html" id="abc">Học Sinh</a>
-                    </div>
-                    <div class="img_text">
-                        <a href="./adgiaovien.html"><img src="./img/image 4.png" alt=""></a>
-                        <a href="./adgiaovien.html" id="abc">Giao Viên</a>
-                    </div>
-                    <div class="img_text">
-                        <a href="./adkhoahoc.html"><img src="./img/image 5.png" alt=""></a>
-                        <a href="./adkhoahoc.html" id="abc">Khóa Học</a>
-                    </div>
-
+                <div class="img_text">
+                    <a href="./admintrangchu.html"><img src="./img/image 1.png" alt=""></a>
+                    <a href="./admintrangchu.html" id="abc">Trang chủ</a>
                 </div>
+                <div class="img_text">
+                    <a href="./indexcoso.html"> <img src="./img/image 3.png" alt=""></a>
+                    <a href="./indexcoso.html" id="abc">Cơ Sở</a>
+                </div>
+                <div class="img_text">
+                    <a href="./indexhocsinh.html"> <img src="./img/image 2.png" alt=""></a>
+                    <a href="./indexhocsinh.html" id="abc">Học Sinh</a>
+                </div>
+                <div class="img_text">
+                    <a href="./indexgiaovien.html"><img src="./img/image 4.png" alt=""></a>
+                    <a href="./indexgiaovien.html" id="abc">Giao Viên</a>
+                </div>
+                <div class="img_text">
+                    <a href="./indexkhoahoc.html"><img src="./img/image 5.png" alt=""></a>
+                    <a href="./indexkhoahoc.html" id="abc">Khóa Học</a>
+                </div>
+
+            </div>
             </div>
         </div>
         `;
@@ -61,5 +61,5 @@ function showMenu() {
         menu.style.overflow = "none";
     }
 }
-icon.addEventListener("click", showMenu); 
+icon.addEventListener("click", showMenu);
 
