@@ -51,6 +51,11 @@ function showMenu() {
                     <a href="./indexkhoahoc.html"><img src="./img/image 5.png" alt=""></a>
                     <a href="./indexkhoahoc.html" id="abc">Khóa Học</a>
                 </div>
+                <div class="img_text">
+                        <a href="./indexlichhoc.html"><img src="./img/image 5.png" alt=""></a>
+                        <a href="./indexlichhoc.html" id="abc">lich hoc</a>
+
+                    </div>
 
             </div>
             </div>

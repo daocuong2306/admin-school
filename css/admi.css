@@ -64,7 +64,7 @@
 .img_text {
     display: grid;
     grid-template-columns: 86px 1fr;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .img_text img {
@@ -354,4 +354,7 @@ h4 {
     background-color: aqua;
     color: #fff;
 
+}
+#show{
+    color: rgb(33, 158, 87);
 }

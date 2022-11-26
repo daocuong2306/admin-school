@@ -4,6 +4,49 @@
     margin: 0;
     padding: 0;
 }
+/* @media(min-width:768px){
+    .tong{
+        margin-left: 300px;
+    }
+} */
+/* 
+ .togo{
+    position: absolute;
+    top: 20px;
+    right: -45px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   cursor: pointer;
+   transition: linear 0.2s;
+  
+   border-radius: 0px 10px 10px  0px;
+} 
+ .togo{
+   font-size: 1.5cm;
+   transition: linear 0.2S;
+    color: aquamarine;
+} 
+ .togo:hover{
+    background-color: aqua;
+}
+ .togo:hover h5{
+    color: aliceblue;
+} */
+
+
+
+
+
+.hi img :hover{
+    width: calc(100%-300px);
+
+}
+
+
 .contenner{
     width: 1440px;
 }
@@ -185,7 +228,7 @@ ul{
 .img_text {
     display: grid;
     grid-template-columns: 86px 1fr;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .img_text img {
@@ -204,11 +247,4 @@ ul{
     z-index: 1000;
     margin-top: -5px;
 }
-
-
-
-
-
-
-
 
