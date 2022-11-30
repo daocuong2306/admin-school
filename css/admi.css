@@ -52,7 +52,7 @@
 
 .mau {
     width: 250px;
-    background-color: aqua;
+    background-color: #071b64;
     height: 1000px;
 
 }
@@ -82,7 +82,7 @@ font-size: 100px;
 
 #abc {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     margin-top: 2px;
 
 }
@@ -160,7 +160,7 @@ font-size: 100px;
 } 
 .cot a{
     
-    background-color: aqua;
+    background-color: #071b64;
     text-align: center;
     border-radius: 20px;
     color: #fff;
@@ -186,7 +186,7 @@ font-size: 100px;
 }
 
 #classStu table button:hover {
-    background-color: aqua;
+    background-color: #071b64;
 }
 
 .showMain {
@@ -233,7 +233,7 @@ table td{
 }
 
 .menu-list ul li:hover {
-    background-color: aqua;
+    background-color: #071b64;
     color: #fff;
 }
 
@@ -283,7 +283,7 @@ table td{
 .seasc button {
     margin-left: 200px;
     font-size: 20px;
-    background-color: aqua;
+    background-color: #071b64;
     border-radius: 20px;
     color: #fff;
 }
@@ -315,7 +315,7 @@ input {
     padding: 10px 10px;
     font-size: 15px;
     border: 1px solid;
-    background-color: aqua;
+    background-color: #071b64;
     border-radius: 20px;
 
 }
@@ -328,7 +328,7 @@ input {
 .seasc button {
     padding: 10px 10px;
     font-size: 15px;
-    background-color: aqua;
+    background-color: #071b64;
     border-radius: 20px;
     color: #fff;
 }
@@ -360,7 +360,7 @@ h4 {
     border: 1px solid ;
     padding: 10px 10px;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: #071b64;
     color: #fff;
 
 }
@@ -380,8 +380,9 @@ table tr{
     border-radius: 20px;
 }
 thead tr th{
-    background-color: aqua;
+    background-color: #071b64;
     border: none;
+    color: #fff;
 }
 tr td{
     padding:  20px 0px;
