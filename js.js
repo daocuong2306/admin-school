@@ -4,7 +4,6 @@ function showmmain() {
     let Main = document.querySelector(".all");
     if (Main.style.display == "none") {
         Main.style.display = "block";
-
     }
     else {
         Main.style.display = "none";

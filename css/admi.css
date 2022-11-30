@@ -19,7 +19,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    max-width: 320px;
+    max-width: 250px;
     transform: translate(-100%);
     transition: 0.5s;
 }
@@ -51,23 +51,31 @@
 
 
 .mau {
+    width: 250px;
     background-color: aqua;
     height: 1000px;
 
 }
 
-.mau img {
-    height: 160px 160px;
-}
+
+
 
 
 .img_text {
+    font-size: 15px;
     display: grid;
-    grid-template-columns: 86px 1fr;
+    grid-template-columns: 50px 1fr;
     margin-top: 30px;
+    margin-left: 50px;
+}
+
+.menu img{
+font-size: 100px;
+
 }
 
 .img_text img {
+    width: 30px;
     margin-left: 15px;
     margin-bottom: 20px;
 }
@@ -75,7 +83,7 @@
 #abc {
     text-decoration: none;
     color: #000;
-    margin-top: 14px;
+    margin-top: 2px;
 
 }
 
@@ -199,15 +207,16 @@
 table{
     
     margin-top: 50px;
+    border-radius: 5px;
 }
 table td{
     width: 1440px;
     text-align: center;
 }
 .bang{
+    border-radius: 5px;
     padding: 20px 20px;
 }
-
 
 /* check */
 
@@ -357,4 +366,26 @@ h4 {
 }
 #show{
     color: rgb(33, 158, 87);
+}
+.bang{
+    border-radius: 50px;
+}
+table{
+  
+    border:  1px solid #000;
+    border-collapse: collapse;
+   
+}
+table tr{ 
+    border-radius: 20px;
+}
+thead tr th{
+    background-color: aqua;
+    border: none;
+}
+tr td{
+    padding:  20px 0px;
+}
+tr th{
+    padding:  20px 0px;
 }
